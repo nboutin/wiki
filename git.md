@@ -15,3 +15,7 @@ git config --local user.name <name>
 
 git config --local user.email <email>
 ```
+
+## Create new branch from remote
+
+`git checkout -t <remote>/<branch>`
