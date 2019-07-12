@@ -19,3 +19,12 @@ git config --local user.email <email>
 ## Create new branch from remote
 
 `git checkout -t <remote>/<branch>`
+
+## Configure Beyond Compare
+
+```
+diff.tool=bc
+difftool.bc.path=C:\Program Files\Beyond Compare 4\BCompare.exe
+merge.tool=bc
+mergetool.bc.path=C:\Program Files\Beyond Compare 4\BCompare.exe
+```
