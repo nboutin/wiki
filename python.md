@@ -14,4 +14,4 @@ example:
 
 ## Pip with proxy
 
-`py -m pip --proxy http://<user>:<pwd>@<ip>:<port> install -U <package> --user`
+`py -m pip --proxy http://<user>:<pwd>@<ip>:<port> install --user -U <package>`

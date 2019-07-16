@@ -28,3 +28,11 @@ difftool.bc.path=C:\Program Files\Beyond Compare 4\BCompare.exe
 merge.tool=bc
 mergetool.bc.path=C:\Program Files\Beyond Compare 4\BCompare.exe
 ```
+
+## Subrepo
+
+### Switch to a remote branch
+
+```
+git subrepo clone <repository> <directory> --force --branch=[branch|tag]
+```
