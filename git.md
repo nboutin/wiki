@@ -29,6 +29,10 @@ merge.tool=bc
 mergetool.bc.path=C:\Program Files\Beyond Compare 4\BCompare.exe
 ```
 
+## Move branch to SHA
+
+`git branch -f <branch> <sha>`
+
 ## Subrepo
 
 ### Switch to a remote branch
