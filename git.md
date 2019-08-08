@@ -37,6 +37,18 @@ mergetool.bc.path=C:\Program Files\Beyond Compare 4\BCompare.exe
 
 ### Switch to a remote branch
 
-```
-git subrepo clone <repository> <directory> --force --branch=[branch|tag]
-```
+`git subrepo clone <repository> <directory> --force --branch=[branch|tag]`
+
+## Patch
+
+### Apply
+
+`git apply <filename>.patch`
+
+### From staged changes
+
+`git diff > <filename>.patch`
+
+### From unstaged and staged changes
+
+`git diff --cached > <filename>.patch`
